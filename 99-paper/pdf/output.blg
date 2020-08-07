@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: pdf/output.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--empty note in Casaburi2019HarnessingKenya
+Warning--empty note in Cole2020MobileizingSustainability
+Warning--empty note in Cole2017TheAgriculture
+Warning--empty note in Fabregas2019SMS-extensionAfrica
+Warning--empty journal in Fishman2016CanBihar
+Warning--empty journal in Schimmelpfennig2016FarmAgriculture
+Warning--there's a number but no volume in Schimmelpfennig2016FarmAgriculture
+You've used 38 entries,
+            2773 wiz_defined-function locations,
+            941 strings with 16496 characters,
+and the built_in function-call counts, 19774 in all, are:
+= -- 1827
+> -- 1326
+< -- 17
++ -- 447
+- -- 408
+* -- 1828
+:= -- 3174
+add.period$ -- 183
+call.type$ -- 38
+change.case$ -- 250
+chr.to.int$ -- 37
+cite$ -- 83
+duplicate$ -- 737
+empty$ -- 1377
+format.name$ -- 466
+if$ -- 4024
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 31
+newline$ -- 267
+num.names$ -- 152
+pop$ -- 384
+preamble$ -- 1
+purify$ -- 212
+quote$ -- 0
+skip$ -- 592
+stack$ -- 0
+substring$ -- 653
+swap$ -- 50
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 418
+warning$ -- 7
+while$ -- 158
+width$ -- 0
+write$ -- 623
+(There were 7 warnings)

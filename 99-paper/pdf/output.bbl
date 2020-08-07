@@ -1,0 +1,357 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Beaman et~al.(2013)Beaman, Karlan, Thuysbaert, and
+  Udry]{Beaman2013ProfitabilityMali}
+Lori Beaman, Dean Karlan, Bram Thuysbaert, and Christopher Udry.
+\newblock {Profitability of fertilizer: experimental evidence from female rice
+  farmers in Mali}.
+\newblock \emph{American economic review}, 103\penalty0 (3):\penalty0 381--386,
+  5 2013.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/aer.103.3.381}.
+
+\bibitem[Bonhard and Sasse(2006)]{Bonhard2006KnowingSystems}
+P.~Bonhard and M.~A. Sasse.
+\newblock {'Knowing me, knowing you' - Using profiles and social networking to
+  improve recommender systems}.
+\newblock \emph{BT Technology Journal}, 24\penalty0 (3):\penalty0 84--98, 7
+  2006.
+\newblock ISSN 13583948.
+\newblock \doi{10.1007/s10550-006-0080-3}.
+
+\bibitem[Burke and Lobell(2017)]{Burke2017Satellite-basedSystems}
+Marshall Burke and David~B Lobell.
+\newblock {Satellite-based assessment of yield variation and its determinants
+  in smallholder African systems}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 114\penalty0
+  (9):\penalty0 2189--2194, 2017.
+\newblock ISSN 0027-8424.
+\newblock \doi{10.1073/pnas.1616919114}.
+\newblock URL \url{https://www.pnas.org/content/114/9/2189}.
+
+\bibitem[Carletto et~al.(2015)Carletto, Jolliffe, and
+  Banerjee]{Carletto2015FromPolicies}
+Calogero Carletto, Dean Jolliffe, and Raka Banerjee.
+\newblock {From Tragedy to Renaissance: Improving Agricultural Data for Better
+  Policies}.
+\newblock \emph{The Journal of Development Studies}, 51\penalty0 (2):\penalty0
+  133--148, 2015.
+\newblock \doi{10.1080/00220388.2014.968140}.
+\newblock URL \url{https://doi.org/10.1080/00220388.2014.968140}.
+
+\bibitem[Casaburi et~al.(2019)Casaburi, Kremer, Mullainathan, and
+  Ramrattan]{Casaburi2019HarnessingKenya}
+Lorenzo Casaburi, Michael Kremer, Sendhil Mullainathan, and Ravindra Ramrattan.
+\newblock {Harnessing ICT to Increase Agricultural Production: Evidence from
+  Kenya}.
+\newblock 2019.
+\newblock URL
+  \url{https://scholar.harvard.edu/kremer/publications/harnessing-ict-increase-agricultural-productionevidence-kenya}.
+
+\bibitem[Cassman et~al.(2002)Cassman, Dobermann, and
+  Walters]{Cassman2002AgroecosystemsManagement}
+Kenneth~G Cassman, Achim Dobermann, and Daniel~T Walters.
+\newblock {Agroecosystems, Nitrogen-Use Efficiency, and Nitrogen Management}.
+\newblock \emph{Ambio}, 31\penalty0 (2):\penalty0 132--140, 2002.
+\newblock ISSN 00447447, 16547209.
+\newblock URL \url{www.jstor.org/stable/4315226}.
+
+\bibitem[Cole and Fernando(2020)]{Cole2020MobileizingSustainability}
+Shawn Cole and A.~Nilesh Fernando.
+\newblock {‘Mobile’izing Agricultural Advice: Technology Adoption,
+  Diffusion, and Sustainability}.
+\newblock 2020.
+\newblock URL
+  \url{https://www.dropbox.com/s/m68t6h46q7e169z/ao_032020.pdf?dl=0}.
+
+\bibitem[Cole and Sharma(2017)]{Cole2017TheAgriculture}
+Shawn Cole and Garima Sharma.
+\newblock {The Promise and Challenges of Implementing ICT in Indian
+  Agriculture}.
+\newblock 2017.
+
+\bibitem[Dash and Curran(2004)]{Dash2004TheIndex}
+J~Dash and P~J Curran.
+\newblock {The MERIS terrestrial chlorophyll index}.
+\newblock \emph{International Journal of Remote Sensing}, 25\penalty0
+  (23):\penalty0 5403--5413, 2004.
+\newblock \doi{10.1080/0143116042000274015}.
+\newblock URL \url{https://doi.org/10.1080/0143116042000274015}.
+
+\bibitem[Duflo et~al.(2008)Duflo, Kremer, and Robinson]{Duflo2008HowKenya}
+Esther Duflo, Michael Kremer, and Jonathan Robinson.
+\newblock {How High Are Rates of Return to Fertilizer? Evidence from Field
+  Experiments in Kenya}.
+\newblock \emph{American Economic Review}, 98\penalty0 (2):\penalty0 482--488,
+  5 2008.
+\newblock \doi{10.1257/aer.98.2.482}.
+\newblock URL \url{https://www.aeaweb.org/articles?id=10.1257/aer.98.2.482}.
+
+\bibitem[Fabregas et~al.(2019)Fabregas, Kremer, Lowes, On, and
+  Zane]{Fabregas2019SMS-extensionAfrica}
+Raissa Fabregas, Michael Kremer, Matthew Lowes, Robert On, and Giulia Zane.
+\newblock {SMS-extension and Farmer Behavior: Lessons from Six RCTs in East
+  Africa}.
+\newblock 2019.
+
+\bibitem[Fishman et~al.(2016)Fishman, Kishore, Rothler, and
+  Ward]{Fishman2016CanBihar}
+Ram Fishman, Avinash Kishore, Yoav Rothler, and Patrick Ward.
+\newblock {Can Information Help Reduce Imbalanced Application of Fertilizers in
+  India? Experimental Evidence from Bihar}.
+\newblock 2016.
+\newblock \doi{10.22004/AG.ECON.235705}.
+
+\bibitem[Gitelson et~al.(2003)Gitelson, Vi{\~{n}}a, Arkebauer, Rundquist,
+  Keydan, and Leavitt]{Gitelson2003RemoteCanopies}
+Anatoly~A Gitelson, Andrés Vi{\~{n}}a, Timothy~J Arkebauer, Donald~C
+  Rundquist, Galina Keydan, and Bryan Leavitt.
+\newblock {Remote estimation of leaf area index and green leaf biomass in maize
+  canopies}.
+\newblock \emph{Geophysical Research Letters}, 30\penalty0 (5), 2003.
+\newblock \doi{10.1029/2002GL016450}.
+\newblock URL
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2002GL016450}.
+
+\bibitem[Haas et~al.(1974)Haas, Schell, and Deering]{Haas1974MonitoringERTS}
+R~Haas, J~Schell, and D~Deering.
+\newblock {Monitoring vegetation systems in the Great Plains with ERTS}.
+\newblock In \emph{NASA. Goddard Space Flight Center 3d ERTS-1 Symp., Vol. 1,
+  Sect. A p 309-317 (SEE N74-30705 20-13); United States}, volume~1, 1974.
+\newblock URL \url{http://search.proquest.com/docview/22161195/}.
+
+\bibitem[Jain et~al.(2016)Jain, Srivastava, {Balwinder-Singh}, Joon, McDonald,
+  Royal, Lisaius, and Lobell]{Jain2016MappingData}
+Meha Jain, Amit Srivastava, {Balwinder-Singh}, Rajiv Joon, Andrew McDonald,
+  Keitasha Royal, Madeline Lisaius, and David Lobell.
+\newblock {Mapping Smallholder Wheat Yields and Sowing Dates Using
+  Micro-Satellite Data}.
+\newblock \emph{Remote Sensing}, 8\penalty0 (10):\penalty0 860, 10 2016.
+\newblock ISSN 2072-4292.
+\newblock \doi{10.3390/rs8100860}.
+\newblock URL \url{http://www.mdpi.com/2072-4292/8/10/860}.
+
+\bibitem[Jain et~al.(2019)Jain, {Balwinder-Singh}, Rao, Srivastava, Poonia,
+  Blesh, Azzari, McDonald, and Lobell]{Jain2019TheData}
+Meha Jain, {Balwinder-Singh}, Preeti Rao, Amit~K Srivastava, Shishpal Poonia,
+  Jennifer Blesh, George Azzari, Andrew~J McDonald, and David~B Lobell.
+\newblock {The impact of agricultural interventions can be doubled by using
+  satellite data}.
+\newblock \emph{Nature Sustainability}, 2\penalty0 (10):\penalty0 931--934,
+  2019.
+\newblock ISSN 2398-9629.
+\newblock \doi{10.1038/s41893-019-0396-x}.
+\newblock URL \url{https://doi.org/10.1038/s41893-019-0396-x}.
+
+\bibitem[Khurana et~al.(2007)Khurana, Phillips, {Bijay-Singh}, Dobermann,
+  Sidhu, {Yadvinder-Singh}, and Peng]{Khurana2007PerformanceIndia}
+Harmandeep~S Khurana, Steven~B Phillips, {Bijay-Singh}, Achim Dobermann,
+  Ajmer~S Sidhu, {Yadvinder-Singh}, and Shaobing Peng.
+\newblock {Performance of Site-Specific Nutrient Management for Irrigated,
+  Transplanted Rice in Northwest India}.
+\newblock \emph{Agronomy Journal}, 99\penalty0 (6):\penalty0 1436--1447, 2007.
+\newblock URL
+  \url{https://acsess.onlinelibrary.wiley.com/doi/abs/10.2134/agronj2006.0283}.
+
+\bibitem[Lambert et~al.(2018)Lambert, Traor{\'{e}}, Blaes, Baret, and
+  Defourny]{Lambert2018EstimatingBelt}
+Marie-Julie Lambert, Pierre C~Sibiry Traor{\'{e}}, Xavier Blaes, Philippe
+  Baret, and Pierre Defourny.
+\newblock {Estimating smallholder crops production at village level from
+  Sentinel-2 time series in Mali's cotton belt}.
+\newblock \emph{Remote Sensing of Environment}, 216:\penalty0 647 -- 657, 2018.
+\newblock ISSN 0034-4257.
+\newblock \doi{https://doi.org/10.1016/j.rse.2018.06.036}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425718303146}.
+
+\bibitem[Lee(2009)]{Lee2009TrainingEffects}
+David~S Lee.
+\newblock {Training, Wages, and Sample Selection: Estimating Sharp Bounds on
+  Treatment Effects}.
+\newblock \emph{The Review of Economic Studies}, 76\penalty0 (3):\penalty0
+  1071--1102, 12 2009.
+\newblock ISSN 0034-6527.
+\newblock \doi{10.1111/j.1467-937X.2009.00536.x}.
+\newblock URL \url{https://doi.org/10.1111/j.1467-937X.2009.00536.x}.
+
+\bibitem[Lewis and Linzer(2005)]{Lewis2005EstimatingEstimates}
+Jeffrey~B Lewis and Drew~A Linzer.
+\newblock {Estimating Regression Models in Which the Dependent Variable Is
+  Based on Estimates}.
+\newblock \emph{Political Analysis}, 13\penalty0 (4):\penalty0 345--364, 2005.
+\newblock ISSN 10471987, 14764989.
+\newblock URL \url{http://www.jstor.org/stable/25791822}.
+
+\bibitem[Lobell(2013)]{Lobell2013}
+David~B Lobell.
+\newblock {The use of satellite data for crop yield gap analysis}.
+\newblock \emph{Field Crops Research}, 143:\penalty0 56--64, 2013.
+\newblock ISSN 03784290.
+\newblock \doi{10.1016/j.fcr.2012.08.008}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0378429012002754}.
+
+\bibitem[Lobell et~al.(2019{\natexlab{a}})Lobell, Azzari, Burke, Gourlay, Jin,
+  Kilic, and Murray]{Lobell2019EyesAnalysis}
+David~B Lobell, George Azzari, Marshall Burke, Sydney Gourlay, Zhenong Jin,
+  Talip Kilic, and Siobhan Murray.
+\newblock {Eyes in the Sky, Boots on the Ground: Assessing Satellite- and
+  Ground-Based Approaches to Crop Yield Measurement and Analysis}.
+\newblock \emph{American Journal of Agricultural Economics}, 10
+  2019{\natexlab{a}}.
+\newblock ISSN 0002-9092.
+\newblock \doi{10.1093/ajae/aaz051}.
+\newblock URL
+  \url{https://academic.oup.com/ajae/advance-article/doi/10.1093/ajae/aaz051/5607565}.
+
+\bibitem[Lobell et~al.(2019{\natexlab{b}})Lobell, Di~Tommaso, You,
+  Yacoubou~Djima, Burke, and Kilic]{Lobell2019SightMali}
+David~B. Lobell, Stefania Di~Tommaso, Calum You, Ismael Yacoubou~Djima,
+  Marshall Burke, and Talip Kilic.
+\newblock {Sight for Sorghums: Comparisons of Satellite- and Ground-Based
+  Sorghum Yield Estimates in Mali}.
+\newblock \emph{Remote Sensing}, 12\penalty0 (1):\penalty0 100, 12
+  2019{\natexlab{b}}.
+\newblock ISSN 2072-4292.
+\newblock \doi{10.3390/rs12010100}.
+\newblock URL \url{https://www.mdpi.com/2072-4292/12/1/100}.
+
+\bibitem[Maohua(2001)]{Maohua2001PossibleMillennium}
+Wang Maohua.
+\newblock {Possible adoption of precision agriculture for developing countries
+  at the threshold of the new millennium}.
+\newblock \emph{Computers and Electronics in Agriculture}, 30\penalty0
+  (1-3):\penalty0 45--50, 2 2001.
+\newblock ISSN 01681699.
+\newblock \doi{10.1016/S0168-1699(00)00154-X}.
+
+\bibitem[Matson et~al.(1998)Matson, Naylor, and
+  Ortiz-Monasterio]{Matson1998IntegrationManagement}
+P~A Matson, R~Naylor, and I~Ortiz-Monasterio.
+\newblock {Integration of environmental, agronomic, and economic aspects of
+  fertilizer management}.
+\newblock \emph{Science (Washington)}, 280\penalty0 (5360):\penalty0 112--115,
+  4 1998.
+\newblock URL \url{https://science.sciencemag.org/content/280/5360/112}.
+
+\bibitem[Mondal and Basu(2009)]{Mondal2009AdoptionStrategies}
+Pinaki Mondal and Manisha Basu.
+\newblock {Adoption of precision agriculture technologies in India and in some
+  developing countries: Scope, present status and strategies}, 6 2009.
+\newblock ISSN 10020071.
+
+\bibitem[Mueller-Wilm(2019)]{Mueller-Wilm2019Sen2CorManual}
+U~Mueller-Wilm.
+\newblock {Sen2Cor Configuration and User Manual}, 2019.
+\newblock URL
+  \url{http://step.esa.int/thirdparties/sen2cor/2.8.0/docs/S2-PDGS-MPC-L2A-SUM-V2.8.pdf}.
+
+\bibitem[Pagani et~al.(2013)Pagani, Sawyer, and
+  Mallarino]{Pagani2013Site-SpecificReturn}
+Agustin Pagani, John Sawyer, and Antonio Mallarino.
+\newblock {Site-Specific Nutrient Management: For Nutrient Management Planning
+  To Improve Crop Production, Environmental Quality, and Economic Return}.
+\newblock \emph{Extension and Outreach Publications}, 5 2013.
+\newblock URL \url{https://lib.dr.iastate.edu/extension_pubs/116}.
+
+\bibitem[Pampolino et~al.(2007)Pampolino, Manguiat, Ramanathan, Gines, Tan,
+  Chi, Rajendran, and Buresh]{Pampolino2007EnvironmentalSystems}
+M.~F. Pampolino, I.~J. Manguiat, S.~Ramanathan, H.~C. Gines, P.~S. Tan, T.~T.N.
+  Chi, R.~Rajendran, and R.~J. Buresh.
+\newblock {Environmental impact and economic benefits of site-specific nutrient
+  management (SSNM) in irrigated rice systems}.
+\newblock \emph{Agricultural Systems}, 93\penalty0 (1-3):\penalty0 1--24, 3
+  2007.
+\newblock ISSN 0308521X.
+\newblock \doi{10.1016/j.agsy.2006.04.002}.
+
+\bibitem[Schimmelpfennig(2016)]{Schimmelpfennig2016FarmAgriculture}
+David Schimmelpfennig.
+\newblock {Farm Profits and Adoption of Precision Agriculture}.
+\newblock \penalty0 (1477-2016-121190):\penalty0 46, 2016.
+\newblock \doi{10.22004/ag.econ.249773}.
+\newblock URL \url{http://ageconsearch.umn.edu/record/249773}.
+
+\bibitem[Sillence et~al.(2006)Sillence, Briggs, Harris, and
+  Fishwick]{Sillence2006AAdvice}
+Elizabeth Sillence, Pam Briggs, Peter Harris, and Lesley Fishwick.
+\newblock {A framework for understanding trust factors in web-based health
+  advice}.
+\newblock \emph{International Journal of Human - Computer Studies}, 64\penalty0
+  (8):\penalty0 697--713, 2006.
+\newblock ISSN 1071-5819.
+\newblock \doi{10.1016/j.ijhcs.2006.02.007}.
+
+\bibitem[Stamatiadis et~al.(2010)Stamatiadis, Tsadilas, and
+  Schepers]{Stamatiadis2010Ground-basedCotton}
+Stamatis Stamatiadis, Christos Tsadilas, and James~S Schepers.
+\newblock {Ground-based canopy sensing for detecting effects of water stress in
+  cotton}.
+\newblock \emph{Plant and Soil}, 331\penalty0 (1):\penalty0 277--287, 6 2010.
+\newblock \doi{10.1007/s11104-009-0252-2}.
+\newblock URL \url{https://doi.org/10.1007/s11104-009-0252-2}.
+
+\bibitem[Suri(2011)]{Suri2011SELECTIONADOPTION}
+Tavneet Suri.
+\newblock {SELECTION AND COMPARATIVE ADVANTAGE IN TECHNOLOGY ADOPTION}.
+\newblock \emph{Econometrica}, 79\penalty0 (1):\penalty0 159--209, 2011.
+\newblock ISSN 00129682, 14680262.
+\newblock URL \url{http://www.jstor.org/stable/41057440}.
+
+\bibitem[Usman et~al.(2011)Usman, Rahbar, Kristensen, Vermund, Kirby, Habib,
+  and Chamot]{Usman2011RandomizedEducation}
+Hussain~R. Usman, Mohammad~H. Rahbar, Sibylle Kristensen, Sten~H. Vermund,
+  Russell~S. Kirby, Faiza Habib, and Eric Chamot.
+\newblock {Randomized controlled trial to improve childhood immunization
+  adherence in rural Pakistan: redesigned immunization card and maternal
+  education}.
+\newblock \emph{Tropical Medicine {\&} International Health}, 16\penalty0
+  (3):\penalty0 334--342, 3 2011.
+\newblock ISSN 13602276.
+\newblock \doi{10.1111/j.1365-3156.2010.02698.x}.
+\newblock URL \url{http://doi.wiley.com/10.1111/j.1365-3156.2010.02698.x}.
+
+\bibitem[Vi{\~{n}}a and Gitelson(2005)]{Vina2005NewCrops}
+Andrés Vi{\~{n}}a and Anatoly~A Gitelson.
+\newblock {New developments in the remote estimation of the fraction of
+  absorbed photosynthetically active radiation in crops}.
+\newblock \emph{Geophysical Research Letters}, 32\penalty0 (17), 2005.
+\newblock \doi{10.1029/2005GL023647}.
+\newblock URL
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2005GL023647}.
+
+\bibitem[Weiss and Baret(1999)]{Weiss1999EvaluationData}
+M~Weiss and F~Baret.
+\newblock {Evaluation of Canopy Biophysical Variable Retrieval Performances
+  from the Accumulation of Large Swath Satellite Data}.
+\newblock \emph{Remote Sensing of Environment}, 70\penalty0 (3):\penalty0 293
+  -- 306, 1999.
+\newblock ISSN 0034-4257.
+\newblock \doi{https://doi.org/10.1016/S0034-4257(99)00045-0}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425799000450}.
+
+\bibitem[Weiss and Baret(2016)]{Weiss2016S2ToolBoxFCOVER}
+Marie Weiss and Fred Baret.
+\newblock {S2ToolBox Level 2 products: LAI, FAPAR, FCOVER}, 2016.
+\newblock URL
+  \url{https://step.esa.int/docs/extra/ATBD_S2ToolBox_L2B_V1.1.pdf}.
+
+\bibitem[Zhao et~al.(2007)Zhao, Reddy, Kakani, Read, and
+  Koti]{Zhao2007CanopyPrediction}
+Duli Zhao, K~Raja Reddy, V~Gopal Kakani, John~J Read, and Sailaja Koti.
+\newblock {Canopy reflectance in cotton for growth assessment and lint yield
+  prediction}.
+\newblock \emph{European Journal of Agronomy}, 26\penalty0 (3):\penalty0 335 --
+  344, 2007.
+\newblock ISSN 1161-0301.
+\newblock \doi{https://doi.org/10.1016/j.eja.2006.12.001}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1161030106001626}.
+
+\end{thebibliography}
