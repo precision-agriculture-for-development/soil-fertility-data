@@ -1,8 +1,7 @@
 use "$merged_data", clear 
 
 // Create a t-a1 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a1/"
-if _rc mkdir "tables/t-a1/"
+capture mkdir "tables/t-a1/"
 
 // Generate survey completion variables 
 

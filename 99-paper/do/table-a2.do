@@ -1,8 +1,7 @@
 use "$final_data_with_attriters", clear 
 
 // Create a t-a2 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a2/"
-if _rc mkdir "tables/t-a2/"
+capture mkdir "tables/t-a2/"
 
 // Generate survey completion variables 
 

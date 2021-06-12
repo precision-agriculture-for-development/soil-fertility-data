@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t4 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t4/"
-if _rc mkdir "tables/t4/"
+capture mkdir "tables/t4/"
 
 generate productivity_2017 = . //We will replace this variable in each regression so all 2017 values of the dependent variable appear in one row 
 label var productivity_2017 "2017 productivity"
@@ -88,6 +87,25 @@ nlcom (v1:([var1_eg1_mean]treatment/`sd1_1' + [var2_eg1_mean]treatment/`sd1_2' /
 estimates store est2
 estimates restore est2
 eststo
+
+/**********************************************************************************
+Fertilizer expenditures 
+**********************************************************************************/
+
+generate urea_expenditures = urea_total_kg*5.36
+generate dap_expenditures = dap_total_kg*28.84
+generate mop_expenditures = mop_total_kg*18.98
+generate zinc_expenditures = zinc_total_kg*100
+
+generate total_fertilizer_expenditures = urea_expenditures + dap_expenditures + mop_expenditures + zinc_expenditures
+winsor2 total_fertilizer_expenditures, cuts(0 99) replace
+
+
+summarize total_fertilizer_expenditures if treatment == 0, meanonly
+local varMean: di %9.3f `r(mean)'
+eststo: regress total_fertilizer_expenditures treatment i.block_id, robust
+estadd scalar depMean = `varMean'
+
 
 /**********************************************************************************
 YIELDS
@@ -188,6 +206,14 @@ nlcom (v1:([var1_eg1_mean]treatment/`sd1_1' + [var2_eg1_mean]treatment/`sd1_2' /
 estimates store est2
 estimates restore est2
 eststo
+
+/*********************************************************************************
+Fertilizer expenditures
+**********************************************************************************/
+summarize total_fertilizer_expenditures if treatment == 0, meanonly
+local varMean: di %9.3f `r(mean)'
+eststo: regress total_fertilizer_expenditures treatment i.block_id, robust
+estadd scalar depMean = `varMean'
 
 /**********************************************************************************
 YIELDS
@@ -292,11 +318,17 @@ estimates store est2
 estimates restore est2
 eststo
 
+/*********************************************************************************
+Fertilizer expenditures
+**********************************************************************************/
+summarize total_fertilizer_expenditures if treatment == 0, meanonly
+local varMean: di %9.3f `r(mean)'
+eststo: regress total_fertilizer_expenditures treatment i.block_id, robust
+estadd scalar depMean = `varMean'
+
 /**********************************************************************************
 YIELDS
 **********************************************************************************/
-
-* Full sample 
 
 replace productivity_2017 = yield_hectare_2017_merged
 summarize yield_hectare_2018_merged if treatment == 0, meanonly
@@ -398,11 +430,17 @@ estimates store est2
 estimates restore est2
 eststo
 
+/*********************************************************************************
+Fertilizer expenditures
+**********************************************************************************/
+summarize total_fertilizer_expenditures if treatment == 0, meanonly
+local varMean: di %9.3f `r(mean)'
+eststo: regress total_fertilizer_expenditures treatment i.block_id, robust
+estadd scalar depMean = `varMean'
+
 /**********************************************************************************
 YIELDS
 **********************************************************************************/
-
-* Full sample 
 
 replace productivity_2017 = yield_hectare_2017_merged
 summarize yield_hectare_2018_merged if treatment == 0, meanonly
@@ -413,7 +451,7 @@ estadd scalar depMean = `varMean'
 esttab using "tables/t4/panel_d.tex", replace se noobs rename(v1 treatment) frag not label tex star(* 0.10 ** 0.05 *** 0.01) ///
 noomitted nobaselevels scalars("N Observations" "r2_a Adjusted \$R^2$" "depMean Control mean") sfmt(%9.0fc %9.3fc %9.3fc) ///
 noconstant indicate("Block FE = *block*") b(%9.3fc) ///
-mtitles("\makecell[c]{Total fertilizer \\ applied (kg/ha)}" "\makecell[c]{Distance between \\ suggested \& \\ applied fertilizer (kg/ha)}" "\makecell[c]{Cotton yield (kg/ha)}")
+mtitles("\makecell[c]{Total fertilizer \\ applied (kg/ha)}" "\makecell[c]{Distance between \\ suggested \& \\ applied fertilizer (kg/ha)}" "\makecell[c]{Total fertilizer expenditures (Rs 2017)}" "\makecell[c]{Cotton yield (kg/ha)}")
 
 restore 
 

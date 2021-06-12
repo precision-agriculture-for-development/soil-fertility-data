@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t2 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t2/"
-if _rc mkdir "tables/t2/"
+capture mkdir "tables/t2/"
 
 foreach x of varlist listen_prop* {
 	replace `x' = 0 if missing(`x') //This means they weren't in the system so definitely didn't hear the call

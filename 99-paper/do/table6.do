@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a t6 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t6/"
-if _rc mkdir "tables/t6/"
+capture mkdir "tables/t6/"
 
 eststo clear 
 

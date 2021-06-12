@@ -1,8 +1,7 @@
 use "$final_data_with_attriters", clear
 
 // Create a t6 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t7/"
-if _rc mkdir "tables/t7/"
+capture mkdir "tables/t7/"
 
 *****************************************************************************
 * Convert raw vegetation index values to yield estimates 

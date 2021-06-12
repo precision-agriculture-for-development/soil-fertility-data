@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a f7 folder to store outputs if it doesn't exist 
-capture confirm file "figures/f7/"
-if _rc mkdir "figures/f7/"
+capture mkdir "figures/f7/"
 
 eststo clear 
 

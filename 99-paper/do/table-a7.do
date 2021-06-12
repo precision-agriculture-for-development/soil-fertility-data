@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t-a7 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a7/"
-if _rc mkdir "tables/t-a7/"
+capture mkdir "tables/t-a7/"
 
 *************************************************************
 * Panel A: Share of plot on which fertilizer was applied, conditional on non-zero application, by treatment 

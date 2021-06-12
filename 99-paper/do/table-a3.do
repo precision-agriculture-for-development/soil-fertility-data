@@ -3,8 +3,7 @@ use "$merged_data", clear
 keep if sowed_cotton == 1
 
 // Create a t-a3 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a3/"
-if _rc mkdir "tables/t-a3/"
+capture mkdir "tables/t-a3/"
 
 //Generate an irrigation variable that uses data from all relevant surveys
 generate irrigated = irrigation_ml 

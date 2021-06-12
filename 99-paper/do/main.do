@@ -23,6 +23,11 @@ else if c(username) == "grady" {
   set python_exec /home/grady/miniconda3/envs/stata/bin/python
 }
 
+else if c(hostname) == "DESKTOP-KA64M3V" {
+	global user "C:\Users\Grady\Documents\research\atai-soil-fertility"
+	set python_exec C:\Users\Grady\anaconda3\envs\pystata\python.exe
+}
+
 cd "$user"
 
 global merged_data "data/ATAI_Endline_2019_Clean_Merged.dta"

@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a t5 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t5/"
-if _rc mkdir "tables/t5/"
+capture mkdir "tables/t5/"
 
 //Generate farmer reported productivity in metric tons/hectare (to limit leading 0s)
 

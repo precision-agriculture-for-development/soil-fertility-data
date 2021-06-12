@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t3 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a4/"
-if _rc mkdir "tables/t-a4/"
+capture mkdir "tables/t-a4/"
 
 /**********************************************************************************
 Followed recommendations 

@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t-a6 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-a6/"
-if _rc mkdir "tables/t-a6/"
+capture mkdir "tables/t-a6/"
 
 
 ********************************************************************************************************

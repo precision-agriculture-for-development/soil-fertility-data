@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a f3 folder to store outputs if it doesn't exist 
-capture confirm file "figures/f3/"
-if _rc mkdir "figures/f3/"
+capture mkdir "figures/f3/"
 
 twoway kdensity difference_dap if treatment==0, lcolor(red) range(-250 500) fcolor(red%50) recast(area) || ///
 kdensity difference_dap if treatment==1, range(-250 500) xscale(range(-250 500)) xline(0, lcolor(black)) lcolor(blue) fcolor(blue%50) recast(area) ///

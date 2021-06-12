@@ -3,13 +3,11 @@ use "$rainfall_data", clear
 merge 1:1 uid using "$merged_data", keepusing(sowed_cotton) keep(3) nogenerate
 
 // Create a f5 folder to store outputs if it doesn't exist 
-capture confirm file "figures/f5/"
-if _rc mkdir "figures/f5/"
+capture mkdir "figures/f5/"
 
 // Create a folder to store the reshaped data (but not sync to Overleaf) if it doesn't exist
 // This is to speed up execution on future runs
-capture confirm file "data/nosync/"
-if _rc mkdir "data/nosync/"
+capture mkdir "data/nosync/"
 
 keep if sowed_cotton == 1
 

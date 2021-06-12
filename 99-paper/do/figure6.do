@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a f6 folder to store outputs if it doesn't exist 
-capture confirm file "figures/f6/"
-if _rc mkdir "figures/f6/"
+capture mkdir "figures/f6/"
 
 
 set scheme plotplain

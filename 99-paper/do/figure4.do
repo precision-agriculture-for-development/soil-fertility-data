@@ -1,8 +1,7 @@
 use "$final_data", clear
 
 // Create a f3 folder to store outputs if it doesn't exist 
-capture confirm file "figures/f4/"
-if _rc mkdir "figures/f4/"
+capture mkdir "figures/f4/"
 
 //////////////////////////////////////////////////////
 //Self-reported harvest and measured plot size

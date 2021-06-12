@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t-b1 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-b1/"
-if _rc mkdir "tables/t-b1/"
+capture mkdir "tables/t-b1/"
 
 //By treatment and control: tab the percent of farmers whose plots were mapped and that we have satellite data for
 

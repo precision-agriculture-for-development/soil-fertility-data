@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t1 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t1/"
-if _rc mkdir "tables/t1/"
+capture mkdir "tables/t1/"
 
 label var physical_irrigation_bl "Irrigation = well, dam, or canal"
 label define physical_irrigation_bl 0 "No irrigation or rain dependent" 1 "Irrigation based on a well, dam, or canal"

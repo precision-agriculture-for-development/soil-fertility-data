@@ -1,8 +1,7 @@
 use "$final_data", clear 
 
 // Create a t-b4 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-b4/"
-if _rc mkdir "tables/t-b4/"
+capture mkdir "tables/t-b4/"
 
 // Keep observations that are non-missing for satellite measured and farmer-reported 2017 and 2018 yields 
 drop if missing(max_re705_2017, max_re705_2017, yield_hectare_2018_alt, yield_hectare_2017_alt)

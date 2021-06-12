@@ -6,8 +6,7 @@ summarize calc_cotton_area, detail
 global median_plot_size = `r(p50)'
 
 // Create a t-b3 folder to store outputs if it doesn't exist 
-capture confirm file "tables/t-b3/"
-if _rc mkdir "tables/t-b3/"
+capture mkdir "tables/t-b3/"
 
 label var max_ndvi_2018 "NDVI"
 label var max_gcvi_2018 "GCVI" 
